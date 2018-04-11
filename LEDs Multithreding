@@ -1,6 +1,4 @@
-
-## ![image](https://user-images.githubusercontent.com/32608510/38633031-04e81694-3ddc-11e8-8645-6a92d5625545.png)
-![image](https://user-images.githubusercontent.com/32608510/38633248-ac1c8d00-3ddc-11e8-8443-6d4470b75c00.png)
+### The program illustrates the frequency generation using the LED. 
 
 
 import RPi.GPIO as GPIO
@@ -15,27 +13,29 @@ GPIO.setup(15,GPIO.OUT)
 
 GPIO.setwarnings(False)
 
-#50Hz
+# generate the 50Hz 
 def led1():
         while True:
                 GPIO.output(7,True)
-                time.sleep(0.02/2)
+                time.sleep(0.01)
                 GPIO.output(7,False)
+                time.sleep(0.01)
 
 def led2():
           while True:
                GPIO.output(11,True)
-               time.sleep(.014/2)
+               time.sleep(.007)
                GPIO.output(11,False)
-               time.sleep(.014/2)
-#125hz
+               time.sleep(.007)
+#generate the 125hz
 def led3():
           while True:
                GPIO.output(13,True)
-               time.sleep(.008/2)
+               time.sleep(.004)
                GPIO.output(13,False)
-               time.sleep(.008/2)
-#146.7Hz
+               time.sleep(.004)
+               
+#generate the 146.7Hz
 def led4():
           while True:
                GPIO.output(15,True)
