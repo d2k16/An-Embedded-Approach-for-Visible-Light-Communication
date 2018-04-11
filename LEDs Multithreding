@@ -1,4 +1,4 @@
-### The program illustrates the frequency generation using the LED. 
+### The program illustrates the frequency generation using the LED. The concept of multithreding is used for parallel execuion of loop. 
 
 
 import RPi.GPIO as GPIO
