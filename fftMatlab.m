@@ -18,3 +18,5 @@ disp(max(k(c)));
 disp(max(k(d)));
 
 plot(fs,k)
+
+![image](https://user-images.githubusercontent.com/32608510/38632129-5cf1b622-3dd9-11e8-9e8c-ec589cb52b63.png)
