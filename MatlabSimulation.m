@@ -1,3 +1,4 @@
+## The Matlab code illustrate the object location estimation based on distance calculation, A simulation model is created and  random point generated in the grid of 100x100 the distances are calculated from the four corner of the grid and a random error is introduced we assumed that the distances are calculated from RSS and an error is in the distance so we estimate the point by applying Trilateration
 
 clc
 networkSize=100;
