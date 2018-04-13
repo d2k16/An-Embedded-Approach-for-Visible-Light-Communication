@@ -14,7 +14,8 @@ VLC is data communication that uses the visible spectrum between 400 to 780 nm (
  4. LEDs: High on/off capability used as transmitter
 
 ## Technical literature 
- 1.	Fast fourier transform (FFT)- FFT algorithm converts the time domain signal to frequency domain, It computes the discrete fourier   transform (DFT) sequence. FFT is the less complex in computation as compared to DFT.  
+ 1.	Fast fourier transform (FFT)- FFT algorithm converts the time domain signal to frequency domain, It computes the discrete fourier   transform (DFT) sequence. FFT is the less complex in computation as compared to DFT.   
+ ![image](https://user-images.githubusercontent.com/32608510/38750114-8aabb39e-3f71-11e8-9190-2faec57126b0.png) Fig. 3 FFT Output
  2.	Frequency division multiplexing (FDM) in LED: LED are can be used transmitter, So in order to differentiate different transmitter different multiplexing can be used i.e. Time division multiplexing (TDM), Code division multiplexing (CDMA), Color division multiplexing, Frequency division multiplexing (FDM), Space division multiplexing. 
  3.Received Signal Strength (RSS): 
  4.	Trilateration: Triangulation uses geometric properties of the triangles in order to estimate the position. There are two derivation of the triangulation: lateration and angulation. Lateration method involves time of arrival (TOA), time difference of arrival (TDOA) and received signal strength (RSS) to estimate the position of target device. Angulation measures angles relative to several reference points angle of arrival (AOA) in order to estimate the position of target device.      
