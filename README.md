@@ -6,13 +6,15 @@ The proposed technology for data communication will be used in near future that 
 VLC is data communication that uses the visible spectrum between 400 to 780 nm (400-800 THz) as shown in Figure 2.1. Speed of the VLC is almost same as the speed of the light, so, data can communicate very fast. As, another advantage of VLC is high spectrum as compare to radio waves i.e., 10,000 times larger [4]. VLC has no electromagnetic interference so it can be used in Hospitals, Power plants and so on. There are also some disadvantages of VLC like it is difficult to use for large distances, Interference from higher light source bulbs, sun light and Line of sight.   
  ![image](https://user-images.githubusercontent.com/32608510/38634698-f3b3736e-3de0-11e8-82a7-7129f587fb59.png)
  
- ## Requirments 
+ ## Prerequisite
  1. Raspberry Pi: Controller for processing
+ 
  2. ADS1115 Adafruit ADC controller: To read analog input in raspberry Pi
  3. OPT101 Photodiode: Measures the light intensity, used as receiver 
  4. LEDs: High on/off capability used as transmitter
 
 ## Technical literature 
- 1.	Fast fourier transform (FFT)- FFT algorithm converts the time domain signal to frequency domain, It computes the discrete fourier          transform (DFT) sequence. FFT is the less complex in competition as compared to DFT.  
+ 1.	Fast fourier transform (FFT)- FFT algorithm converts the time domain signal to frequency domain, It computes the discrete fourier   transform (DFT) sequence. FFT is the less complex in computation as compared to DFT.  
  2.	Frequency division multiplexing (FDM) in LED: LED are can be used transmitter, So in order to differentiate different transmitter different multiplexing can be used i.e. Time division multiplexing (TDM), Code division multiplexing (CDMA), Color division multiplexing, Frequency division multiplexing (FDM), Space division multiplexing. 
- 3.	Trilateration using circular lateration 
+ 3.Received Signal Strength (RSS): 
+ 4.	Trilateration: Triangulation uses geometric properties of the triangles in order to estimate the position. There are two derivation of the triangulation: lateration and angulation. Lateration method involves time of arrival (TOA), time difference of arrival (TDOA) and received signal strength (RSS) to estimate the position of target device. Angulation measures angles relative to several reference points angle of arrival (AOA) in order to estimate the position of target device.      
