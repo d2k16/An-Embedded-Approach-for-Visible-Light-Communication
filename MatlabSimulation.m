@@ -58,32 +58,8 @@ for i=1:20
                 dr(i)= sqrt((X(:,1)-LedPos(i,1)).^2+(X(:,2)-LedPos(i,2)).^2);
                 
          end
-         e=abs(dr-d');
-         inx=find(e==max(e));
-         
-         d(1,inx)=[d(1,inx)-max(e)];
-         d=d';
-         d1=d(1,1);
-         d2=d(2,1);
-         d3=d(3,1);
-         d4=d(4,1);
-         y1=(d1.^2+100.^2-d2.^2)/200; %intersection btn 1 & 2
-         x1=sqrt(d1.^2-y1.^2);
-         L(1)=x1;
-         M(1)=y1;
-         x2=  (100.^2-d4.^2+d1.^2)/200;     %1&4
-         y2=sqrt(d1.^2-x2.^2);
-         L(2)=x2;
-         M(2)=y2;
-         x3=(d1.^2-d4.^2+100^2)/200;
-         y3=(d1.^2+100.^2-d2.^2)/200;
-         L(3)=x3;
-         M(3)=y3;
-         %Xsq=[mean(L) mean(M)];
-         
-       
-
-         f(1)=figure(1);
+        
+        f(1)=figure(1);
          clf
  
          plot(LedPos(:,1),LedPos(:,2),'ko','MarkerSize',8,'lineWidth',2,'MarkerFaceColor','k');
